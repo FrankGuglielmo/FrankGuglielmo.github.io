@@ -1,0 +1,523 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Set the navbar to the right of the webpage */
+.navlink-item {
+    float: right;
+}
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0px;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover { /* round facebook icon*/
+    background: #4060A5;
+}
+
+.social .fa-twitter:hover { /* round twitter icon*/
+    background: #00ABE3;
+}
+
+.social .fa-google-plus:hover { /* round google plus icon*/
+    background: #e64522;
+}
+
+.social .fa-github:hover { /* round github icon*/
+    background: #343434;
+}
+
+.social .fa-pinterest:hover { /* round pinterest icon*/
+    background: #cb2027;
+}
+
+.social .fa-linkedin:hover { /* round linkedin icon*/
+    background: #0094BC;
+}
+
+.social .fa-flickr:hover { /* round flickr icon*/
+    background: #FF57AE;
+}
+
+.social .fa-instagram:hover { /* round instagram icon*/
+    background: #375989;
+}
+
+.social .fa-vimeo-square:hover { /* round vimeo square icon*/
+    background: #83DAEB;
+}
+
+.social .fa-stack-overflow:hover { /* round stack overflow icon*/
+    background: #FEA501;
+}
+
+.social .fa-dropbox:hover { /* round dropbox icon*/
+    background: #017FE5;
+}
+
+.social .fa-tumblr:hover { /* round tumblr icon*/
+    background: #3a5876;
+}
+
+.social .fa-dribbble:hover { /* round dribble icon*/
+    background: #F46899;
+}
+
+.social .fa-skype:hover { /* round skype icon*/
+    background: #00C6FF;
+}
+
+.social .fa-stack-exchange:hover { /* round stack exchange icon*/
+    background: #4D86C9;
+}
+
+.social .fa-youtube:hover { /* round youtube icon*/
+    background: #FF1F25;
+}
+
+.social .fa-xing:hover { /* round xing icon*/
+    background: #005C5E;
+}
+
+.social .fa-rss:hover { /* round rss icon*/
+    background: #e88845;
+}
+
+.social .fa-foursquare:hover { /* round foursquare icon*/
+    background: #09B9E0;
+}
+
+.social .fa-youtube-play:hover { /* round youtube play button icon*/
+    background: #DF192A;
+}
+
+/* Make a smooth transition from nav bar item to section*/
+.navlink-item a {
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    scroll-behavior: smooth;
+}
+section{
+    scroll-behavior: smooth;
+    margin-bottom: 1em;
+}
+
+
+/* Project Container */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+/* Project Item that has an image as a link on the left and a description on the right */
+.project-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 1200px;
+}
+
+/* Spotlight */
+
+.spotlight {
+    margin: auto;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.spotlight p{
+    font-size: 18px;
+    color: #212529;
+}
+.spotlight li{
+    font-size: 18px;
+    padding: 1em;
+    text-align: left;
+    color: #212529;
+    list-style: circle;
+}
+
+.spotlight2 {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+    .spotlight .image {
+        margin: auto;
+        text-align: center;
+        padding: 2em 1em 2em 1em ;
+        -moz-order: 1;
+        -webkit-order: 1;
+        -ms-order: 1;
+        order: 1;
+        border-radius: 0;
+        width: 35%;
+        max-width: 400px;
+        height: 35%;
+        max-height: 400px;
+        opacity: 0.8;
+    }
+/* Add a hover effect that magnifies the image container */
+    .spotlight .image:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -moz-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        opacity: 1;
+    }
+
+
+
+
+
+    .spotlight .image img {
+        border-radius: 0;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .spotlight .content {
+        margin: auto;
+        padding: 2em 1em 2em 1em ;
+        -moz-order: 2;
+        -webkit-order: 2;
+        -ms-order: 2;
+        order: 2;
+        max-width: 48em;
+        width: 65%;
+    }
+
+    .spotlight .content h3 {
+        text-align: center;
+        margin: 0 0 1em 0;
+        font-size: 2.5em;
+        font-weight: 300;
+        line-height: 1.25em;
+    }
+
+    .spotlight2 .content {
+        padding: 2em 4em 0.1em 4em ;
+    }
+
+    .spotlight:nth-child(2n) {
+        -moz-flex-direction: row-reverse;
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    /* Company */ 
+
+    .company {
+        margin: auto;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: flex-start;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        
+    }
+
+    .company .logo {
+        margin: 1em 2em 1em 3em;
+        text-align: center;
+        vertical-align: top;
+        padding: 0em 1em 2em 1em ;
+        -moz-order: 1;
+        -webkit-order: 1;
+        -ms-order: 1;
+        order: 1;
+        border-radius: 0;
+        width: 100%;
+        max-width: 200px;
+        height: 100%;
+        max-height: 200px;
+        opacity: 0.8;
+    }
+
+    .company .logo img {
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+        max-height: 200px;
+        vertical-align: top;
+        padding-bottom: 2em;
+    }
+
+    .company .positions{ 
+        margin-right: auto;
+        margin-left: 1em;
+        text-align: left;
+        padding: 0em 2em 2em 0em;
+        -moz-order: 2;
+        -webkit-order: 2;
+        -ms-order: 2;
+        order: 2;
+    }
+
+
+    .company .positions ul{
+        border-left: 1px solid #343434;
+    }
+
+
+    .company .positions li {
+        list-style: none;
+        font-size: 16px;
+        color: #212529;
+        padding: 1em 1em 1em 1em;
+    }
+
+    .company .positions h3 {
+        color: #212529;
+    }
+
+    .company .logo h5 {
+        color: #212529;
+        font-weight: normal;
+    }
+
+    .company .positions h6 {
+        padding-left: 1em;
+        color: dimgrey;
+        font-style: italic;
+        font-weight: normal;
+    }
+
+    .company .positions ul .job_list_description {
+        padding: 0em 2em 0em 2em;
+        border: none;
+    }
+
+    .company .positions ul .job_list_description li {
+        list-style: circle;
+        font-size: 16px;
+        color: #212529;
+    }
+
+    .technologies ul{
+        text-align: center;
+        margin: auto;
+        padding-inline-start: 0;
+        width: 100%;
+    }
+
+    .technologies li {
+        display: inline;
+        margin: auto;
+        padding: 2em;
+        width: 100%;
+        height: 100%;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .technologies img {
+        display: inline-block;
+        margin-bottom: 2em;
+        width: fit-content;
+        max-width: 100px;
+        height: fit-content;
+        max-height: 100px;
+    }
+
+    
+
+
+
+
+
+
+    @media screen and (max-width: 1280px) {
+
+        /* Spotlight Stuff*/
+
+        .spotlight .image {
+            width: 40%;
+        }
+
+        .spotlight .content {
+            width: 60%;
+        }
+
+        .spotlight .content iframe {
+            width: 50%;
+        }
+
+        .spotlight2 .content {
+            width: 100%;
+        }
+
+        /* Company stuff */
+
+        .company .logo {
+            width: 30%
+        }        
+
+        .company .positions {
+            width: 70%;
+        }
+
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        .spotlight {
+            display: block;
+        }
+
+        .spotlight br {
+            display: none;
+        }
+
+        .spotlight .image {
+            width: 100%;
+        }
+
+        .spotlight .content {
+            padding: 4em 3em 2em 3em ;
+            max-width: none;
+            text-align: center;
+            width: 100%;
+        }
+
+        .spotlight2 .content {
+            padding: 4em 3em 2em 3em ;
+            max-width: none;
+            text-align: center;
+            width: 100%;
+        }
+
+
+        .company {
+            display: block;
+        }
+
+        .company br {
+            display: none;
+        }
+
+        .company .logo {
+            width: 100%;
+            text-align: center;
+            margin: auto;
+        }
+
+        .company .positions {
+            margin-top: 3em;
+            padding: 4em 3em 2em 3em ;
+            max-width: none;
+            text-align: center;
+            width: 100%;
+        }
+
+        .company .positions {
+            padding: 4em 3em 2em 3em ;
+            max-width: none;
+            text-align: center;
+            width: 100%;
+        }
+        
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .spotlight .content {
+            padding: 3em 2em 1em 2em ;
+        }
+        .spotlight2 .content {
+            padding: 3em 2em 1em 2em ;
+        }
+
+        .company .logo {
+            padding: 1em 2em 3em 2em ;
+        }
+
+        .company .positions {
+            margin: auto;
+            margin-top: 3em;
+            padding: 3em 2em 1em 2em ;
+        }
+
+        .company .positions ul{
+            margin: auto;
+            padding-inline-start: 0%;
+        }
+    }
+
+
+
+
+
+
